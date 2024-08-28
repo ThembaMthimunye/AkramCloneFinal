@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes moveText {
+  from {
+    @apply translate-x-full;
+  }
+  to {
+    @apply -translate-x-full;
+  }
+}
