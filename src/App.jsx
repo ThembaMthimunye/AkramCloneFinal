@@ -2,11 +2,13 @@ import { useState } from 'react'
 import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import "./App.css"
+import section2 from './components/section2'
 function App() {
   return (
-    <div class="bg-[#FCF5F0] h-screen w-screen">
+    <div>
         <NavBar/>
         <HeroSection/>
+        
     </div>
      
     

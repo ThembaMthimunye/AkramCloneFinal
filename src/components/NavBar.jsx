@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
             {/* Navbar */}
-            <nav className="p-4 fixed top-0 left-0 w-full z-50 bg-[#FCF5F0] h-[10rem] flex items-center">
+            <nav className="p-4 fixed top-0 left-0 w-full bg-[#FCF5F0] flex items-center">
                 <div className="container mx-auto flex justify-between items-center">
                     <img
                         className="w-[10rem] h-[2rem]"
@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Overlay */}
             <div
-                className={`fixed inset-0 bg-[#1A0A07]  transition-transform transform ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}
+                className={`relative inset-0 bg-[#1A0A07] z-40 transition-transform transform ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}
             >
 
                 <div className="container mx-auto flex justify-between items-center">

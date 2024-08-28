@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @keyframes moveText {
-  from {
-    @apply translate-x-full;
-  }
-  to {
-    @apply -translate-x-full;
-  }
+    @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+      
 }
