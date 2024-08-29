@@ -36,7 +36,7 @@ const Section4 = () => {
                             <p className='mt-[2rem] ml-[2rem] font-thin text-2xl'>Tailored space planning services to maximize functionality
                                 and aesthetics, ensuring every square foot of your home or office is utilized
                                 efficiently while reflecting your unique style and needs.</p>
-                            <div class="absolute top-0 h-full w-0.5 bg-transparent transition-all duration-300 group-hover:bg-black">       
+                            <div className="absolute top-0 h-full w-0.5 bg-transparent transition-all duration-300 group-hover:bg-black">       
                             </div>
                         </div>
                         <hr className="my-4 border-t-2 border-gray-300" />

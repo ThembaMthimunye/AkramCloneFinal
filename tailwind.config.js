@@ -8,6 +8,10 @@ module.exports = {
       animation: {
         scroll: 'scroll 5s linear infinite',
       },
+      backgroundImage: {
+         'section-7':"url('https://framerusercontent.com/images/mdQZ7esbJolTlpZKs3AVEpLyCo.jpg?scale-down-to=2048')",
+
+      },
       keyframes: {
         scroll: {
           '0%': { transform: '-translateX(50%)' },
